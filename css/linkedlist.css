@@ -1,0 +1,79 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+.main {
+  display: flex;
+  height: 100vh;
+}
+.container {
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-node {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-data {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  border: 2px solid white;
+  height: 60px;
+}
+.list-next {
+  border: 2px solid white;
+  height: 60px;
+  cursor: pointer;
+  width: 30px;
+}
+
+.list-link {
+  width: 30px;
+  border: 2px solid white;
+}
+.operations {
+  flex: 4;
+  min-width: 500px;
+}
+.elementToAdd {
+  width: 60px;
+}
+.operations-list {
+  list-style: decimal;
+}
+.operations-list .operation {
+  margin: 30px;
+}
+.operations-list .operation span {
+  background-color: cadetblue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.operation .list-node {
+  margin-top: 20px;
+}
+
+.operations-list .operation span:hover {
+  background-color: cadetblue;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

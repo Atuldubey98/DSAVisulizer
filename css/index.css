@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main h1{
+    color: rgb(72, 236, 72);
+    margin-bottom: 50px;
+    font-size: 3rem;
+    text-align: center;
+}
+.dsa-list{
+    list-style: decimal;
+}
+
+ul li a{
+    text-decoration: none;
+}
+ul li {
+    margin: 20px;
+    font-size: 1.5rem;
+}

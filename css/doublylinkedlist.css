@@ -1,0 +1,53 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+}
+.linked-list{
+    flex: 8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-node{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-node hr{
+    width: 20px;
+}
+.list-data{
+    padding: 1rem;
+    border: 1px solid white;
+}
+.operations{
+    padding: 10px;
+    flex: 3;
+    border-left: 1px solid yellow;
+}
+.operations h3{
+    text-align: center;
+}
+.operation button{
+    background: rgb(247, 222, 222);
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.operation .list-data input{
+    border: none;
+}
+.operation .list-data input:focus{
+    border: none;
+    outline: none;
+}

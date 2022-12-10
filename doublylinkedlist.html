@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=firefox" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doublylinkedlist</title>
+    <link rel="stylesheet" href="css/doublylinkedlist.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="linked-list"></div>
+      <div class="operations">
+        <h3>Operations</h3>
+        <ul class="operation-list">
+          <li class="operation">
+            <button onclick="appendToLinkedList()">Append</button>
+            <div class="list-node">
+              <hr />
+              <div class="list-prev"></div>
+              <div class="list-data">
+                <input id="valueToAppend" style="width: 100px" placeholder="Value" type="text" />
+              </div>
+              <div class="list-next"></div>
+              <hr />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="javascript/doublylinkedlist.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/linkedlist.css" />
+    <title>Linked List</title>
+  </head>
+  <body>
+    <div class="main">
+      <div id="container" class="container">
+        <div id="area" class="area"></div>
+      </div>
+      <div class="operations">
+        <h2>List of Operations can be performed</h2>
+        <ul class="operations-list">
+          <li class="operation">
+            <span onclick="appendToList()">appendToList(</span
+            ><input id="elementToAdd" type="number" />)
+          </li>
+          <li class="operation">
+            <span>deleteElement(</span>"Click on Element")
+          </li>
+          <li class="operation">
+            <span onclick="addAtIndexElement()">addAtIndexElement(</span>
+            <input
+              id="indexToAdd"
+              placeholder="index"
+              class="elementToAdd"
+              type="number"
+            />)
+            <div class="list-node">
+              <div class="list-data">
+                <input
+                  id="elementToBeAdded"
+                  placeholder="value"
+                  class="elementToAdd"
+                  type="number"
+                />
+              </div>
+              <div class="list-next"></div>
+              <div class="list-link"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="javascript/linkedlist.js"></script>
+  </body>
+</html>
